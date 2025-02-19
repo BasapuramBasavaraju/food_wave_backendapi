@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "login.php",
+        "use": "@vercel/php"
+      },
+      {
+        "src": "signup.php",
+        "use": "@vercel/php"
+      }
+    ],
+    "routes": [
+      { "src": "/login", "dest": "/login.php" },
+      { "src": "/signup", "dest": "/signup.php" }
+    ]
+  }
+  
